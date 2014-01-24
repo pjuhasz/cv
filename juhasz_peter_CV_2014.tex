@@ -1,0 +1,135 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.0 (18/7/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Stefano (http://stefano.italians.nl/)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% The main font used in this template, Adobe Garamond Pro, does not 
+% come with Windows by default. You will need to download it in
+% order to get an output as in the preview PDF. Otherwise, change this 
+% font to one that does come with Windows or comment out the font line 
+% to use the default LaTeX font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage[urw-garamond]{mathdesign}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{scrpage2} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{fontspec} % Allows font customization
+\usepackage{graphicx}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{EB Garamond} % Main document font
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.5in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{2cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+% FOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+\cofoot{
+\addfontfeature{LetterSpace=20.0}\fontsize{12.5}{17}\selectfont % Letter spacing and font size
+
+1221 Budapest {\large\textperiodcentered} Rátz László u. 56. fszt/3 {\large\textperiodcentered} Hungary\\ % Your mailing address
+{\Large\Letter} peter.juhasz83@gmail.com \ {\Large\Telefon} (3630) 468-0037 % Your email address and phone number
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+% HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape Péter Juhász} % Your name at the top
+
+\vspace{1cm} % Extra whitespace after the large name at the top
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{March 2012 --- Present}\\
+\gray Employer & \textbf{CAE Engineering Kft.} \hfill  Budapest, Hungary\\
+\gray Job Title & \textbf{Software Developer}\\
+\gray Languages & \textbf{Ada, Fortran, C}\\
+   & Develop and maintain large real-time aircraft simulator software, 
+   perform porting and testing, on-site integration
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{September 2007 --- March 2012}\\
+\gray Employer & \textbf{Natl. Research Inst. for Radiobiology and
+Radiohygiene
+} \hfill Budapest, Hungary\\
+\gray Job Title & \textbf{Physicist}\\
+   & Design and implement research data analysis scripts, support ongoing
+experiments on biological effects of RF exposure, write research articles,
+develop and maintain a SAR measurement setup
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\vspace{-12pt}
+
+\section{Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{2000 --- 2006}\\
+\gray Degree & \textbf{MSc Physics, MSc Astronomy}\\
+\gray        & \textbf{Specialization in Astrophysics and Statistical Physics}\\
+\gray University & \textbf{Eötvös Loránd University (ELTE)
+} \hfill Budapest, Hungary\\
+%& Extra information about degree
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\includegraphics{experience.pdf}
+
+%----------------------------------------------------------------------------------------
+
+\end{center}
+
+\end{document}

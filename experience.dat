@@ -1,0 +1,31 @@
+9	9	Perl
+7	7	C
+-1	2	C++
+3	2.5	SQL
+-7	5.7	Ada
+-5	4.7	Fortran
+3	6.6	sh
+4.5	3.5	R
+2	3.5	Matlab
+-9	4	LabVIEW
+6   3.5 ruby
+
+
+7 9 English
+8 5 Japanese
+1 5 German
+
+
+3.5 6 Mercurial
+6 5 git
+5 7 SVN
+-4 3 CVS
+
+
+-9 5 Office
+7 6 LaTeX
+
+
+8 8 Linux/Unix
+-5 7 Windows
+
