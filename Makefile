@@ -9,5 +9,9 @@ $(PDFNAME).pdf: $(PDFNAME).tex $(GRAPH).pdf
 $(GRAPH).pdf: $(GRAPH).plt $(GRAPH).dat
 	gnuplot $(GRAPH).plt
 
+clean_pdf: clean
+	rm  $(PDFNAME).pdf
+
 clean: 
-	rm -f $(GRAPH).pdf $(PDFNAME).pdf *~ *.aux *.log
+	rm -f $(GRAPH).pdf *~ *.aux *.log
+
