@@ -1,0 +1,30 @@
+About
+=====
+
+This is my up-to-date, version controlled CV together with its sources.
+
+Requirements
+============
+
+* XeLaTex (a reasonably complete TeX Live distribution is recommended)
+* gnuplot (version 4.6.0 or above)
+* make
+* the EB Garamond font
+
+If you have all of these, just run "make".
+
+License
+=======
+
+The .tex source is based on a template "Stylish Curriculum Vitae"
+from http://www.LaTeXTemplates.com. Original author:
+
+Stefano (http://stefano.italians.nl/)
+
+License:
+CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+
+The font used in the PDF version is called EB Garamond, created by
+Georg Duffner. It is distributed under the SIL Open Fonts License.
+
