@@ -1,5 +1,5 @@
 reset
-set term pdf font "EB Garamond,15"
+set term pdf font "EB Garamond,15" size 6,3
 set out "experience.pdf"
 
 set label 1 "Experience" at graph 0.5, 0.5 center offset -2,0 rotate by 90
