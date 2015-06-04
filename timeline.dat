@@ -1,9 +1,9 @@
 #work
-#from	to	mark	job_title	company	location	description
-2012.25	2016	2015.5	"Software\nDeveloper"	"CAE Engineering Kft." "Budapest, Hungary"	"Develop and maintain large real-time aircraft simulator software\nPerform porting and testing, on-site integration"
-2007.66	2012.25	2011	"Physicist" "Natl. Research Inst. for\nRadiobiology and Radiohygiene" "Budapest, Hungary" "Design and implement research data analysis scripts\nSupport ongoing experiments on biological effects of RF exposure\nWrite research articles, develop and maintain a SAR measurement setup"
+#from	to	mark	job_title	company	location	description	color	work/edu
+2012.25	2016	2015.2	"Software\nDeveloper"	"CAE Engineering Kft." "Budapest, Hungary"	"Develop and maintain large real-time aircraft simulator software\nPerform porting and testing, on-site integration\nLanguages: C, C++, Ada, Fortran"	0x7f0000	work
+2007.66	2012.25	2010	"Physicist" "Natl. Research Inst. for\nRadiobiology and Radiohygiene" "Budapest, Hungary" "Design and implement research data analysis scripts\nSupport ongoing experiments on biological effects of RF exposure\nWrite research articles, develop and maintain a SAR measurement setup"	0x007f00	work
 
 
 #education
-#from	to	mark	degree	school	location	description
-2000.66	2006.1	2005	"MSc Physics\nMSc Astronomy"	"Eötvös Loránd University (ELTE)" "Budapest, Hungary" "Specialization in Astrophysics and Statistical Physics\nThesis about foreground star removal from galaxy images"
+#from	to	mark	degree	school	location	description	color	work/edu
+2000.66	2006.1	2004	"MSc Physics\nMSc Astronomy"	"Eötvös Loránd University (ELTE)" "Budapest, Hungary" "Specialization in Astrophysics and Statistical Physics\nThesis about foreground star removal from galaxy images"	0x00007f	edu
