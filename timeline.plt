@@ -1,6 +1,4 @@
 # TODO
-# bar colors, lw
-# @ colors ?
 # newline spacing ???
 # bullet pts for descr ?
 # marks for work & education (column in data file, unicode symbol in plot)
