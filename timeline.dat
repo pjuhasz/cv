@@ -1,7 +1,8 @@
 #work
 #from	to	mark	job_title	company	location	description	color	work/edu
-2012.25	2016	2015.2	"Software\nDeveloper"	"CAE Engineering Kft." "Budapest, Hungary"	"Develop and maintain large real-time aircraft simulator software\nPerform porting and testing, on-site integration\nLanguages: C, C++, Ada, Fortran"	0x7f0000	work
-2007.66	2012.25	2010	"Physicist" "Natl. Research Inst. for\nRadiobiology and Radiohygiene" "Budapest, Hungary" "Design and implement research data analysis scripts\nSupport ongoing experiments on biological effects of RF exposure\nWrite research articles, develop and maintain a SAR measurement setup"	0x007f00	work
+2015.75	2016	2015.9	"Software Developer"	"UHU Systems Kft." "Budapest, Hungary" "Develop backend for call center software in Perl"	0x5f5f00	work
+2012.25	2015.75	2013.8	"Software Developer"	"CAE Engineering Kft." "Budapest, Hungary"	"Develop and maintain large real-time aircraft simulator software\nPerform porting and testing, on-site integration\nLanguages: C, C++, Ada, Fortran"	0x7f0000	work
+2007.66	2012.25	2009.5	"Physicist" "Natl. Research Inst. for\nRadiobiology and Radiohygiene" "Budapest, Hungary" "Design and implement research data analysis scripts\nSupport ongoing experiments on biological effects of RF exposure\nWrite research articles, develop and maintain a SAR measurement setup"	0x007f00	work
 
 
 #education
