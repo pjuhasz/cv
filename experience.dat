@@ -1,7 +1,7 @@
 9	9	Perl
 7	7	C
 -5	5.5	C++
-3	2.5	SQL
+4	4.7	SQL
 -7	5.7	Ada
 -4	5.7	Fortran
 3	6.6	sh
@@ -16,9 +16,9 @@
 1 5 German
 
 
-4.5 6 Mercurial
+5 6.8 Mercurial
 6 5 git
-5 7 SVN
+4 7 SVN
 -4 3 CVS
 
 
