@@ -1,4 +1,4 @@
-PDFNAME=juhasz_peter_CV_2015
+PDFNAME=juhasz_peter_CV_2023
 GRAPH=experience
 TIMELINE=timeline
 
