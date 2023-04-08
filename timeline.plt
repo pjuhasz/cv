@@ -1,6 +1,6 @@
 # TODO
 # newline spacing ???
-# bullet pts for descr ?
+# bullet pts for descr - done with explicit bullet point chars
 # marks for work & education (column in data file, unicode symbol in plot)
 
 reset
@@ -10,8 +10,8 @@ set out "timeline.pdf"
 fn = "timeline.dat"
 
 start_date = 2000
-end_date   = 2016.3
-tics = "2000 2007 2012"
+end_date   = 2023.5
+tics = "2000 2007 2012 2016 2023"
 
 start_x = -5.5
 end_x = 15
@@ -26,7 +26,7 @@ description_pos  =  1
 font_offset      = 0.18
 box_hi           = 0.5
 box_low_double   = -1.25
-box_low_single   = -0.5
+box_low_single   = -0.4
 
 idx_mul = 3
 
